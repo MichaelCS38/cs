@@ -27,61 +27,6 @@
     ]
   },
   {
-    "app_name": "mytonwallet",
-    "name": "MyTonWallet",
-    "image": "https://static.mytonwallet.io/icon-256.png",
-    "about_url": "https://mytonwallet.io",
-    "universal_url": "https://connect.mytonwallet.org",
-    "deepLink": "mytonwallet-tc://",
-    "bridge": [
-      {
-        "type": "js",
-        "key": "mytonwallet"
-      },
-      {
-        "type": "sse",
-        "url": "https://tonconnectbridge.mytonwallet.org/bridge/"
-      }
-    ],
-    "platforms": [
-      "chrome",
-      "windows",
-      "macos",
-      "linux",
-      "ios",
-      "android",
-      "firefox"
-    ],
-    "features": [
-      {
-        "name": "SendTransaction",
-        "maxMessages": 4,
-        "extraCurrencySupported": false
-      }
-    ]
-  },
-  {
-    "app_name": "okxMiniWallet",
-    "name": "OKX Mini Wallet",
-    "image": "https://static.okx.com/cdn/assets/imgs/2411/8BE1A4A434D8F58A.png",
-    "about_url": "https://www.okx.com/web3",
-    "universal_url": "https://t.me/OKX_WALLET_BOT?attach=wallet",
-    "bridge": [
-      {
-        "type": "sse",
-        "url": "https://www.okx.com/tonbridge/discover/rpc/bridge"
-      }
-    ],
-    "platforms": ["ios", "android", "macos", "windows", "linux"],
-    "features": [
-      {
-        "name": "SendTransaction",
-        "maxMessages": 4,
-        "extraCurrencySupported": false
-      }
-    ]
-  },
-  {
     "app_name": "okxTonWallet",
     "name": "OKX Wallet",
     "image": "https://static.okx.com/cdn/assets/imgs/247/58E63FEA47A2B7D7.png",
